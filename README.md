@@ -1,4 +1,4 @@
-# tap-fixerio
+# tap-darkskyapi
 
 A [Singer Tap] Tap to extract currency exchange rate data from the [Dark Sky API](https://darksky.net/dev).
 
