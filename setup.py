@@ -11,7 +11,7 @@ setup(name='tap-darkskyapi',
       py_modules=['tap_darkskyapi'],
       install_requires=['singer-python>=0.1.0',
                         'backoff==1.3.2',
-                        'requests==2.13.0'],
+                        'requests>=2.20.0'],
       entry_points='''
           [console_scripts]
           tap-darkskyapi=tap_darkskyapi:main
