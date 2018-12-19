@@ -2,6 +2,7 @@
 
 import json
 import sys
+import os
 import argparse
 import time
 import requests
@@ -102,7 +103,7 @@ def main():
 
     start_date = state.get('start_date',
                            config.get('start_date', datetime.utcnow().strftime(DATE_FORMAT)))
-    access_key = state.get('access_key', config.get('access_key'))
+    access_key = os.environ.get('DARKSKY_API_KEY', state.get('access_key', config.get('access_key')))
     lat_long = (config.get('lat', 37.7749),
                 config.get('long', -122.4194))
 
