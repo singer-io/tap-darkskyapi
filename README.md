@@ -1,6 +1,6 @@
 # tap-darkskyapi
 
-A [Singer Tap] to extract currency exchange rate data from the [Dark Sky API](https://darksky.net/dev).
+A [Singer Tap] to extract historical and forecast weather data from the [Dark Sky API](https://darksky.net/dev).
 
 ## How to use it
 
