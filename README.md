@@ -40,3 +40,6 @@ working directory.
 [Dark Sky API]: https://darksky.net/dev
 [Mac]: http://docs.python-guide.org/en/latest/starting/install3/osx/
 [Ubuntu]: https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-ubuntu-16-04
+
+---
+Copyright &copy; 2019 Stitch
